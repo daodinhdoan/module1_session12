@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <button   onclick="play()"> Chơi</button> <br>
+    <script>
+
+     let tien = +prompt("nhập số tiền muốn vay")
+     let thang = +prompt('nhập tháng muốn vay')
+     let lai = +prompt('lãi hàng thángg')
+     let sum = 0
+     for(i=0 ; i<=thang ; i++){
+        let sum = ((a/100)*lai)
+        sum++
+        
+     }
+        alert(`${sum}`)
+     
+     
+
+
+
+
+
+
+
+
+
+//cách 1 trò chơi
+        // function play(){
+        //     let a = +prompt('Nhập số')
+        //     let random = Math.floor(Math.random()*200);
+        //     if(random<10){
+        //         alert("giỏi đúng là con trai của ta")
+        //     }else{
+        //         alert("em còn non lắm")
+        //     }
+        // }
+
+
+        //cách 2 
+       /*  function  play(){
+            let a = +prompt('nhập số Muốn Đoán trong khoảng 0-10')
+            let b = Math.round(Math.random()*10);
+            let count = 1;
+            if(a==b){
+                alert('đúng')
+            }else{
+                while(count<4){
+                    if(count==1){
+                        alert('pạn Còn 2 nượt')
+                    }
+                    let c=+prompt('nhập lại số')
+                    count++ ;
+                    if(c==b){
+                        alert('Đúng')
+                        return
+                    }
+                    if(count==2){
+                        alert('Pạn Còn 1 nượt')
+                    }else if (count==3){
+                        alert('nguuuu vãi ò')
+                        return
+                    }
+                }
+            }
+        }
+ */
+
+
+
+//          let m = 0 ;
+//         let c = 1 ;
+//         let fibonacci1 = ' ';
+//         let sum1 = 1 ;
+//         for(i=0 ; i<20 ; i++){
+//             fibonacci1= m + c ;
+//             m = c ;
+//             c = sum ;
+//             document.write(`${fibonacci1} <br>`)
+//             sum+=fibonacci1
+            
+//         }   
+//          document.write (`tổng là ${sum} <br>`);
+
+
+//     var date = Date() ;
+//    document.write(date) 
+//    document.write('<br>')      
+    </script>
+</body>
+</html>

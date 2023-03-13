@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script > 
+          
+        
+        // tam gioác
+
+    
+        let n = 10;
+        for(i=0;i<n;i++){
+            for(j=0;j<=i;j++){
+                document.write("*")
+                
+            }
+            
+                document.write('<br>')
+        } document.write('<hr>')
+
+        for (i=0 ; i<n ; ++i){
+            for(j=i ; j<n ; j++){
+                document.write("*")
+            }
+            document.write("<br>")
+        }document.write('<hr>')
+
+        document.write('<br>')
+        document.write('<br>')
+        document.write('<br>')
+
+
+
+        // hình chữ nhật ở dưới
+
+       let a = 20;
+        for (let i = 0 ; i<=5 ; i++){
+            if(i==0){
+                for(let j=0 ; j<=a ; J++){
+                    document.write("*")
+                }
+                document.write('<br');
+            }
+            if(i>=1 && i<3){
+                for(let j = 0; j <=a; j++){
+                    if(j==0 || j==a){
+                        document.write('*')
+                    }else{
+                        document.write('&nbsp&nsbp&nbsp')
+                    
+                    }
+                }
+                document.write('<br>');
+            }
+            if(i==4){
+                for(let j = 0 ; j<= a ; j++){
+                    document.write('*')
+                }
+                document.write('<br>')
+            }
+        }
+       
+
+
+
+
+
+        // fibolacci
+
+        let number1 = 0;
+        let number2 = 0 ;
+        let number3 = 0 ;
+        let fibonacci = ' ';
+        for(i=0 ; i<19 ; i++){
+           if (i==0){
+            a = 1 ;
+            c = 1 ;
+            fibonacci += a + ' '
+           } else{
+            a=b+c;
+            b=c ;
+            c=a;
+            fibonacci += a + ' '
+           }
+        } 
+        document.write(`20 số đầu tiên của dãy ${fibonacci}`)
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+           
+    
+    
+        
+
+
+
+
+        
+        
+            
+      
+
+
+     
+
+  
+  
+
+
+
+
+
+
+    </script>
+</body>
+</html>
